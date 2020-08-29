@@ -1,0 +1,9 @@
+2.SELECT level, AVG(age)
+FROM student
+GROUP BY level
+
+3.SELECT level, AVG(age)
+FROM student
+WHERE level NOT LIKE '%JR%'
+GROUP BY level
+
